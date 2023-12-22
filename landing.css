@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #6a5acd, #fff); /* Lavender to White gradient */
+}
+
+#landing {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-container {
+    background-color: lavenderblush; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+}
+
+.landing-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.landing-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.landing-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.landing-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a5acd; /* SlateBlue color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.landing-content a:hover {
+    background-color: #4b0082; /* DarkSlateBlue color on hover */
+}
+
+footer {
+    background-color: #6a5acd;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
